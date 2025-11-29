@@ -114,10 +114,10 @@ export default function CatPets() {
             onClick={() => petCat('fluffy')}
             title="Pet Fluffy"
           >
-            <Cat className="w-16 h-16 text-gray-400" />
+            <Cat className="w-16 h-16 text-black" />
           </div>
           <p className="text-white font-semibold text-sm mt-2">Fluffy</p>
-          <p className="text-purple-300 text-xs">Grey Cat 🌸</p>
+          <p className="text-purple-300 text-xs">Black Cat 🌸</p>
         </div>
       </div>
 
@@ -137,10 +137,10 @@ export default function CatPets() {
             onClick={() => petCat('kai')}
             title="Pet Kai"
           >
-            <Cat className="w-16 h-16 text-black" />
+            <Cat className="w-16 h-16 text-gray-400" />
           </div>
           <p className="text-white font-semibold text-sm mt-2">Kai</p>
-          <p className="text-purple-300 text-xs">Tuxedo Cat 🌸</p>
+          <p className="text-purple-300 text-xs">Grey Cat 🌸</p>
         </div>
       </div>
     </>
